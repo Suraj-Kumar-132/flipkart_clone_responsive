@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+*{
+    font-family: 'Xanh Mono', monospace;
+
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 9px;
+    background:var(--main-bg-color);
+    border: 1px solid white;
+    color:white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:black;
+    font-style: italic;
+    
+}
